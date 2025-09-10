@@ -6,6 +6,8 @@
 - **Profesor(a):** Oscar Reyes
 - **Fecha de entrega:** 10/09/2025
 - 📎 **Organización en GitHub:** [https://github.com/Pruebas-de-Software-Tareas](https://github.com/Pruebas-de-Software-Tareas)
+- 📎 **FrontEnd en GitHub:** [https://github.com/Pruebas-de-Software-Tareas](https://github.com/Pruebas-de-Software-Tareas/Frontend)
+- 📎 **BackEnd en GitHub:** [https://github.com/Pruebas-de-Software-Tareas](https://github.com/Pruebas-de-Software-Tareas/Backend)
 
 ## 2. Especificación de Requerimientos (Validación)
 El enunciado inicial presentaba requisitos generales. Para evitar ambigüedades, definimos lo siguiente:
@@ -103,7 +105,7 @@ A continuación, se presenta un resumen de los casos de prueba ejecutados. La ev
   1. **Carga de Datos para Editar:**
      ![Relleno erroneo](Pruebas/T2/T2-1.png)
   2. **Actualización:**
-     ![Resultado](Pruebas/T2/2-2.png)
+     ![Resultado](Pruebas/T2/T2-2.png)
 ### <a name="T3"></a>Anexo T3: Registrar un nuevo evento
 - **Comentario:** Se llena el formulario y se crea un nuevo evento, el cual aparece en la lista con un mensaje de confirmación.
 - **Evidencia:**
