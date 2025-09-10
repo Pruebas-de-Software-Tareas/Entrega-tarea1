@@ -94,9 +94,9 @@ A continuación, se presenta un resumen de los casos de prueba ejecutados. La ev
 ### <a name="T1"></a>Anexo Flujo de trabajo
 - **Comentario:** Se aceptan pull request y no hay choques
 - **Evidencia:**
-  1. **Formulario Lleno:**
+  1. **Solicitud Pull Request:**
      ![Solicitud Pull Request](Pruebas/solicituddepullrequest.png)
-  2. **Resultado Exitoso:**
+  2. **Pull Request Merge Exitoso:**
      ![Pull Request Merge](Pruebas/Pullrequestmergeada.png)
  
 
