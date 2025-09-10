@@ -99,6 +99,16 @@ A continuación, se presenta un resumen de los casos de prueba ejecutados. La ev
   2. **Pull Request Merge Exitoso:**
      ![Pull Request Merge](Pruebas/Pullrequestmergeada.png)
  
+### <a name="T1"></a>Anexo Protección de Ramas
+- **Comentario:** Se proteje Main con pull request para todos los participantes
+- **Evidencia:**
+  1. **Main:**
+     ![Rama protegida](Pruebas/Proteccion/RamaProtegida.png)
+  2. **Features:**
+     ![1](Pruebas/Proteccion/1.png)
+     ![2](Pruebas/Proteccion/2.png)
+     ![3](Pruebas/Proteccion/3.png)
+ 
 
 ### <a name="T1"></a>Anexo T1: Login con credenciales válidas
 - **Comentario:** Se llena el input con claves válidas
