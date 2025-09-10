@@ -1,12 +1,12 @@
 
 # 📄 Ejercicio – Gestión de Entradas para Micro-Eventos
 
-## 1. Portada
+
 - **Proyecto:** Gestión de Entradas para Micro-Eventos  
-- **Integrantes:** Nombre Apellido – Nombre Apellido  
-- **Curso:** [Nombre curso]  
-- **Profesor(a):** [Nombre profesor]  
-- **Fecha:** [dd/mm/2025]  
+- **Integrantes:** Javiera Osorio – Muryel
+- **Curso:** Pruebas de Software 
+- **Profesor(a):** Oscar Reyes
+- **Fecha:** [10/09/2025]  
 - 📎 **Repositorio GitHub:** [Enlace al repo](https://github.com/tu-org/tu-repo)  
 
 ---
