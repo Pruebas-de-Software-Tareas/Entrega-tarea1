@@ -83,42 +83,48 @@ A continuación, se presenta un resumen de los casos de prueba ejecutados. La ev
 
 ### <a name="T01"></a>Anexo T-01: Creación de Evento
 - **Entrada:** Usuario completa todos los campos del formulario con datos válidos y presiona "Crear Evento".
-- **Resultado Obtenido (Evidencia):**
-  ![Creación de Evento Exitosa](URL_A_TU_IMAGEN_DE_CREAR_EVENTO.png)
-- **Comentario:** El sistema muestra el mensaje "Evento creado correctamente" y el nuevo evento "Charla wena" aparece en la tabla.
+- **Resultados Obtenidos (Evidencia):**
+  1. **Formulario Lleno:**
+     ![Formulario para crear evento](Pruebas/T1/T1-1.png)
+  2. **Resultado Exitoso:**
+     ![Evento creado correctamente](Pruebas/T1/T1-2.png)
+- **Comentario:** El sistema muestra el mensaje "Evento creado correctamente" y el nuevo evento aparece en la tabla.
 
 ### <a name="T02"></a>Anexo T-02: Carga de datos para Edición
-- **Entrada:** Usuario hace clic en el botón "Editar" del evento "Charla wena".
-- **Resultado Obtenido (Evidencia):**
-  ![Carga para Edición](URL_A_TU_IMAGEN_DE_CARGAR_PARA_EDITAR.png)
+- **Entrada:** Usuario hace clic en el botón "Editar" de un evento existente.
+- **Resultados Obtenidos (Evidencia):**
+  1. **Lista de Eventos:**
+     ![Lista antes de editar](Pruebas/T2/T2-1.png)
+  2. **Formulario Cargado para Editar:**
+     ![Formulario con datos cargados](Pruebas/T2/T2-2.png)
 - **Comentario:** El formulario superior se rellena con los datos del evento seleccionado y el botón principal cambia a "Actualizar Evento".
 
 ### <a name="T03"></a>Anexo T-03: Actualización de Evento
 - **Entrada:** Usuario modifica los datos en el formulario y presiona "Actualizar Evento".
-- **Resultado Obtenido (Evidencia):**
-  ![Actualización Exitosa](URL_A_TU_IMAGEN_DE_ACTUALIZAR_EVENTO.png)
+- **Resultados Obtenidos (Evidencia):**
+  ![Actualización Exitosa](Pruebas/T3/T3-1.png) 
 - **Comentario:** El sistema muestra "Evento actualizado correctamente" y los cambios se reflejan en la tabla.
 
 ### <a name="T04"></a>Anexo T-04: Eliminación de Evento
 - **Entrada:** Usuario presiona "Eliminar" y luego confirma en el diálogo emergente.
 - **Resultados Obtenidos (Evidencia):**
-  1.  **Diálogo de Confirmación:**
-      ![Confirmación de Borrado](URL_A_TU_IMAGEN_DE_CONFIRMACION_ELIMINAR.png)
-  2.  **Resultado Final:**
-      ![Eliminación Exitosa](URL_A_TU_IMAGEN_DE_ELIMINAR_EXITO.png)
+  1. **Diálogo de Confirmación:**
+     ![Confirmación de Borrado](Pruebas/T4/T4-1.png)
+  2. **Resultado Final:**
+     ![Eliminación Exitosa](Pruebas/T4/T4-2.png)
 - **Comentario:** El flujo completo funciona, protegiendo contra eliminaciones accidentales y confirmando el éxito de la operación.
 
 ### <a name="T05"></a>Anexo T-05: Validación de Campo Obligatorio
-- **Entrada:** Usuario intenta crear un evento sin rellenar el campo "Nombre".
+- **Entrada:** Usuario intenta crear un evento sin rellenar un campo requerido.
 - **Resultado Obtenido (Evidencia):**
-  ![Error de Validación](URL_A_TU_IMAGEN_DE_ERROR_VALIDACION.png)
+  ![Error de Validación](Pruebas/T5/T5-1.png)
 - **Comentario:** El navegador impide el envío del formulario y muestra un aviso en el campo requerido, como se esperaba.
 
 ### <a name="T06"></a>Anexo T-06: Evidencia de Flujo de Trabajo en GitHub
 - **Revisión y Merge de Pull Request:**
-  ![Pull Request con Revisión](URL_A_TU_IMAGEN_DE_PULL_REQUEST.png)
+  ![Pull Request con Revisión](Pruebas/T6/T6-1-PullRequest.png)
 - **Configuración de Protección de Rama `main`:**
-  ![Protección de Rama](URL_A_TU_IMAGEN_DE_PROTECCION_DE_RAMA.png)
+  ![Protección de Rama](Pruebas/T6/T6-2-BranchProtection.png)
 - **Integración con Slack:**
-  ![Notificación en Slack](URL_A_TU_IMAGEN_DE_SLACK.png)
-- **Comentario:** Se evidencia el uso de Pull Requests con revisores asignados y el merge exitoso a la rama principal, cumpliendo con el flujo de trabajo definido.
+  ![Notificación en Slack](Pruebas/T6/T6-3-Slack.png)
+- **Comentario:** Se evidencia el uso de Pull Requests con revisores asignados, la configuración de ramas protegidas y la notificación automática de acciones en Slack. *(Nota: Deberás agregar tus propias capturas para T6 en una carpeta `Pruebas/T6/`)*.
