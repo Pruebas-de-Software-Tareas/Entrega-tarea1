@@ -27,7 +27,3 @@ La solución completa está dividida en un frontend interactivo y un backend rob
 | 🏢 **Organización** | [Pruebas-de-Software-Tareas](https://github.com/Pruebas-de-Software-Tareas) |
 
 ---
-
-## 2. Especificación de Requerimientos (Validación)
-
-*(Aquí continúa el resto de tu documento: "El enunciado inicial presentaba requisitos generales...")*
