@@ -89,6 +89,15 @@ A continuación, se presenta un resumen de los casos de prueba ejecutados. La ev
 
 *(Nota: Las pruebas T1 y T2 corresponden al flujo de Login. Las pruebas T3, T4 y T5 corresponden al CRUD de Eventos, cuyas evidencias se muestran a continuación.)*
 
+### <a name="T1"></a>Anexo Flujo de trabajo
+- **Comentario:** Se aceptan pull request y no hay choques
+- **Evidencia:**
+  1. **Formulario Lleno:**
+     ![Solicitud Pull Request](Pruebas/solicituddepullrequest.png)
+  2. **Resultado Exitoso:**
+     ![Pull Request Merge](Pruebas/Pullrequestmergeada.png)
+ 
+
 ### <a name="T1"></a>Anexo T1: Login con credenciales válidas
 - **Comentario:** Se llena el input con claves válidas
 - **Evidencia:**
