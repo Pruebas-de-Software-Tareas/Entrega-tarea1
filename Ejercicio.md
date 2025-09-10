@@ -1,16 +1,12 @@
-
 # 📄 Ejercicio – Gestión de Entradas para Micro-Eventos
 
-
 - **Proyecto:** Gestión de Entradas para Micro-Eventos  
-- **Integrantes:** Javiera Osorio – Muryel
-- **Curso:** Pruebas de Software 
-- **Profesor(a):** Oscar Reyes
-- **Fecha:** [10/09/2025]  
-- 📎 **Repositorio GitHub:**📎  [Enlace al repo](https://github.com/Pruebas-de-Software-Tareas)
+- **Integrantes:** Javiera Osorio – Muryel  
+- **Curso:** Pruebas de Software  
+- **Profesor(a):** Oscar Reyes  
+- **Fecha de entrega:** 10/09/2025  
+- 📎 **Repositorio GitHub:** [https://github.com/Pruebas-de-Software-Tareas](https://github.com/Pruebas-de-Software-Tareas)
 
-
----
 
 ## 2. Especificación de Requerimientos (Validación)
 El enunciado inicial presentaba requisitos generales. Para evitar ambigüedades, definimos lo siguiente:
