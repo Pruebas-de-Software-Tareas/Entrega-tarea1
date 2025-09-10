@@ -5,7 +5,7 @@
 - **Curso:** Pruebas de Software  
 - **Profesor(a):** Oscar Reyes  
 - **Fecha de entrega:** 10/09/2025  
-- 📎 **Repositorio GitHub:** [https://github.com/Pruebas-de-Software-Tareas](https://github.com/Pruebas-de-Software-Tareas)
+- 📎 **Organización en GitHub:** [https://github.com/Pruebas-de-Software-Tareas](https://github.com/Pruebas-de-Software-Tareas)
 
 
 ## 2. Especificación de Requerimientos (Validación)
@@ -86,6 +86,5 @@ Para verificar que el sistema cumple lo anterior, aplicamos:
 ## 8. Anexos
 - Screenshots de cada prueba (T1–T10).  
 - Evidencias de GitHub (ramas, PRs, commits).  
-- Registro de pruebas en **Greentest.ai**.  
 
 ---
