@@ -7,7 +7,7 @@
 - **Curso:** Pruebas de Software 
 - **Profesor(a):** Oscar Reyes
 - **Fecha:** [10/09/2025]  
-- 📎 **Repositorio GitHub:** [Enlace al repo](https://github.com/tu-org/tu-repo)  
+- 📎 **Repositorio GitHub:** [Enlace al repo]([https://github.com/tu-org/tu-repo](https://github.com/Pruebas-de-Software-Tareas))  
 
 ---
 
