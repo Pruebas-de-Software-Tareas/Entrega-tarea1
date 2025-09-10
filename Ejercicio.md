@@ -109,6 +109,22 @@ A continuación, se presenta un resumen de los casos de prueba ejecutados. La ev
      ![2](Pruebas/Proteccion/2.png)
      ![3](Pruebas/Proteccion/3.png)
  
+### <a name="T1"></a>Anexo Integración
+- **Comentario:** Se conecta github (repositorio) con slack a un chat
+- **Evidencia:**
+
+  1. **Pasos:**
+     ![1](Pruebas/Integracion/1.png)
+     ![2](Pruebas/Proteccion/2.png)
+     ![3](Pruebas/Proteccion/3.png)
+ 
+### <a name="T1"></a>Anexo Backend
+- **Comentario:** Se evidencia el funcionamiento del backend
+- **Evidencia:**
+  1. **Login fallido y creación de evento exitoso:**
+     ![](Pruebas/Backend/Loginfallidoycreacionevento.png)
+  
+ 
 
 ### <a name="T1"></a>Anexo T1: Login con credenciales válidas
 - **Comentario:** Se llena el input con claves válidas
