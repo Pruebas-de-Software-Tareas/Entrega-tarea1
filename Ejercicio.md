@@ -90,39 +90,46 @@ A continuación, se presenta un resumen de los casos de prueba ejecutados. La ev
 *(Nota: Las pruebas T1 y T2 corresponden al flujo de Login. Las pruebas T3, T4 y T5 corresponden al CRUD de Eventos, cuyas evidencias se muestran a continuación.)*
 
 ### <a name="T1"></a>Anexo T1: Login con credenciales válidas
+- **Comentario:** Se llena el input con claves válidas
 - **Evidencia:**
-  *(Evidencia para T1 será agregada por el equipo)*
+  1. **Formulario Lleno:**
+     ![Relleno bueno](Pruebas/T1/T1-1.png)
+  2. **Resultado Exitoso:**
+     ![Resultado](Pruebas/T1/T1-2.png)
 
 ### <a name="T2"></a>Anexo T2: Login con credenciales inválidas
+- **Comentario:** Se rellena el mismo usuario con claves inválidas
 - **Evidencia:**
-  *(Evidencia para T2 será agregada por el equipo)*
-
+  1. **Carga de Datos para Editar:**
+     ![Relleno erroneo](Pruebas/T2/T2-1.png)
+  2. **Actualización:**
+     ![Resultado](Pruebas/T2/2-2.png)
 ### <a name="T3"></a>Anexo T3: Registrar un nuevo evento
 - **Comentario:** Se llena el formulario y se crea un nuevo evento, el cual aparece en la lista con un mensaje de confirmación.
 - **Evidencia:**
   1. **Formulario Lleno:**
-     ![Formulario para crear evento](Pruebas/T1/T1-1.png)
-  2. **Resultado Exitoso:**
-     ![Evento creado correctamente](Pruebas/T1/T1-2.png)
+     ![Formulario para crear evento](Pruebas/T3/T3-2.png)
+  
+  3. **Resultado Exitoso:**
+     ![Evento creado correctamente](Pruebas/T3/T3-3.png)
 
 ### <a name="T4"></a>Anexo T4: Modificar un evento existente
 - **Comentario:** Se selecciona un evento, se cargan sus datos en el formulario, se modifican y se guardan los cambios.
 - **Evidencia:**
-  1. **Carga de Datos para Editar:**
-     ![Formulario con datos cargados](Pruebas/T2/T2-2.png)
-  2. **Actualización Exitosa:**
-     ![Actualización Exitosa](Pruebas/T3/T3-1.png)
+  1. **Carga de Datos para editar:**
+     ![Formulario con datos cargados](Pruebas/T4/T4-1.png)
+  2. **Campos editados:**
+     ![Formulario con datos cargados](Pruebas/T4/T4-2.png)
+  3. **Actualización exitosa:**
+     ![Actualización Exitosa](Pruebas/T4/T4-3.png)
 
 ### <a name="T5"></a>Anexo T5: Eliminar un evento existente
 - **Comentario:** Se hace clic en eliminar, se confirma la acción en un diálogo y el evento desaparece de la lista.
 - **Evidencia:**
   1. **Diálogo de Confirmación:**
-     ![Confirmación de Borrado](Pruebas/T4/T4-1.png)
+     ![Confirmación de Borrado](Pruebas/T5/T5-1.png)
   2. **Resultado de Eliminación:**
-     ![Eliminación Exitosa](Pruebas/T4/T4-2.png)
-  3. **Validación de Campo Obligatorio (Prueba Adicional):**
-     ![Error de Validación](Pruebas/T5/T5-1.png)
-
+     ![Eliminación Exitosa](Pruebas/T5/T5-2.png)
 ### <a name="T6"></a>Anexo T6: Filtrar por categoría
 - **Evidencia:**
   *(Evidencia para T6 será agregada por el equipo)*
