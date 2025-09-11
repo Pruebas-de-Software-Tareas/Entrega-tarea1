@@ -71,11 +71,11 @@ A continuación, se presenta un resumen de los casos de prueba ejecutados. La ev
 | **T3** | Registrar evento (Charla IA, 20 cupos, $5000) | Evento se muestra en el listado | ✅ Éxito | [Ver Anexo T3](#T3) |
 | **T4** | Modificar evento (precio a $6000) | Se actualiza correctamente | ✅ Éxito | [Ver Anexo T4](#T4) |
 | **T5** | Eliminar evento existente | Evento ya no aparece en lista | ✅ Éxito | [Ver Anexo T5](#T5) |
-| **T6** | Filtrar por categoría “Taller” | Se listan solo talleres | ⚪ Pendiente | [Ver Anexo T6](#T6) |
-| **T7** | Vender entrada en evento con cupos | Cupos disminuyen en 1 | ⚪ Pendiente | [Ver Anexo T7](#T7) |
-| **T8** | Devolver entrada previamente vendida | Cupos aumentan en 1 | ⚪ Pendiente | [Ver Anexo T8](#T8) |
-| **T9** | Generar reporte con varios eventos | Reporte muestra totales y agotados | ⚪ Pendiente | [Ver Anexo T9](#T9) |
-| **T10**| Crear evento con cupos = 0 | Evento debe marcarse como “Agotado” | ⚪ Pendiente | [Ver Anexo T10](#T10)|
+| **T6** | Filtrar por categoría “Taller” | Se listan solo talleres | ✅ Éxito | [Ver Anexo T6](#T6) |
+| **T7** | Vender entrada en evento con cupos | Cupos disminuyen en 1 | ✅ Éxito | [Ver Anexo T7](#T7) |
+| **T8** | Devolver entrada previamente vendida | Cupos aumentan en 1 | ✅ Éxito | [Ver Anexo T8](#T8) |
+| **T9** | Generar reporte con varios eventos | Reporte muestra totales y agotados | ✅ Éxito | [Ver Anexo T9](#T9) |
+| **T10**| Crear evento con cupos = 0 | Evento debe marcarse como “Agotado” | ✅ Éxito | [Ver Anexo T10](#T10)|
 
 ---
 
@@ -167,22 +167,47 @@ A continuación, se presenta un resumen de los casos de prueba ejecutados. La ev
      ![Confirmación de Borrado](Pruebas/T5/T5-1.png)
   2. **Resultado de Eliminación:**
      ![Eliminación Exitosa](Pruebas/T5/T5-2.png)
+     
 ### <a name="T6"></a>Anexo T6: Filtrar por categoría
 - **Evidencia:**
-  *(Evidencia para T6 será agregada por el equipo)*
-
+  1. **Opciones de filtrado:**
+      ![Menú de Filtrado](Pruebas/T6/T6-1.png)
+  2. **Resultado tras filtrado:**
+      ![Filtrado](Pruebas/T6/T6-2.png)
+  
 ### <a name="T7"></a>Anexo T7: Vender entrada
 - **Evidencia:**
-  *(Evidencia para T7 será agregada por el equipo)*
+  1. **Dashboard previo a la venta:**
+     ![Dashboard con 41 cupos](Pruebas/T7/T7-1.png)
+  3. **Menú previo a la venta:**
+     ![Opción con 40 cupos](Pruebas/T7/T7-2.png)
+  4. **Dashboard tras venta:**
+     ![Dashboard con 40 cupos](Pruebas/T7/T7-3.png)
+  5. **Menú tras venta:**
+     ![Opción con 39 cupos](Pruebas/T7/T7-4.png)
 
 ### <a name="T8"></a>Anexo T8: Devolver entrada
 - **Evidencia:**
-  *(Evidencia para T8 será agregada por el equipo)*
+  1. **Dashboard previo a la devolución:**
+     ![Dashboard con 40 cupos](Pruebas/T8/T8-1.png)
+  2. **Menú previo a la devolución:**
+     ![Opción con 39 cupos](Pruebas/T8/T8-2.png)
+  3. **Dashboard tras devolución:**
+     ![Dashboard con 41 cupos](Pruebas/T8/T8-3.png)
+  4. **Menú tras devolución:**
+     ![Opción con 40 cupos](Pruebas/T8/T8-4.png)
 
 ### <a name="T9"></a>Anexo T9: Generar reporte
 - **Evidencia:**
-  *(Evidencia para T9 será agregada por el equipo)*
+  1. **Menú con 3 eventos creados:**
+     ![Detalle de eventos](Pruebas/T9/T9-1.png)
+  2. **Reporte de los eventos:**
+     ![Reporte de los eventos](Pruebas/T9/T9-2.png)
 
 ### <a name="T10"></a>Anexo T10: Crear evento agotado
 - **Evidencia:**
-  *(Evidencia para T10 será agregada por el equipo)*
+  1. **Detalle de datos ingresados:**
+     ![Detalle con 0 cupos](Pruebas/T10/T10-1.png)
+  2. **Resultado de creación:**
+     ![Creación exitosa](Pruebas/T10/T10-2.png)
+
