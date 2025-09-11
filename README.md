@@ -13,7 +13,7 @@ La solución completa está dividida en un frontend interactivo y un backend rob
 
 | Detalle | Información |
 | :--- | :--- |
-| **Integrantes** | Javiera Osorio – Muryel |
+| **Integrantes** | Javiera Osorio – Muryel Constanzo|
 | **Curso** | Pruebas de Software |
 | **Profesor(a)** | Oscar Reyes |
 | **Fecha de Entrega** | 10 de Septiembre, 2025 |
