@@ -1,7 +1,7 @@
 # 📄 Ejercicio – Gestión de Entradas para Micro-Eventos
 
 - **Proyecto:** Gestión de Entradas para Micro-Eventos
-- **Integrantes:** Javiera Osorio – Muryel
+- **Integrantes:** Javiera Osorio – Muryel Constanzo
 - **Curso:** Pruebas de Software
 - **Profesor(a):** Oscar Reyes
 - **Fecha de entrega:** 10/09/2025
